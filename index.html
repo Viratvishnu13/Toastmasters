@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCL Pandyas Toastmasters Club | Where Leaders Are Forged</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .hero-bg {
+            background: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.8)), url('https://placehold.co/1920x1080/1a202c/ffffff?text=HCL+Pandyas+Assembly');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        /* Custom scrollbar for a more polished look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #4a5568;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2d3748;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header id="header" class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center text-2xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">
+                <span><span class="text-blue-600">HCL</span> Pandyas</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                <a href="#focus" class="text-gray-600 hover:text-blue-600 transition duration-300">This Week's Focus</a>
+                <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition duration-300">The Pandya Advantage</a>
+                <a href="#meetings" class="text-gray-600 hover:text-blue-600 transition duration-300">Our Meetings</a>
+                <a href="#flow" class="text-gray-600 hover:text-blue-600 transition duration-300">Meeting Flow</a>
+                <a href="#team" class="text-gray-600 hover:text-blue-600 transition duration-300">Royal Council</a>
+                <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
+            </div>
+            <a href="#join" class="hidden lg:block bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg">
+                Join Our Assembly
+            </a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="lg:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden px-6 pb-4 space-y-2">
+            <a href="#about" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">About Us</a>
+            <a href="#focus" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">This Week's Focus</a>
+            <a href="#benefits" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">The Pandya Advantage</a>
+            <a href="#meetings" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Our Meetings</a>
+            <a href="#flow" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Meeting Flow</a>
+            <a href="#team" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Royal Council</a>
+            <a href="#testimonials" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Testimonials</a>
+            <a href="#join" class="block bg-blue-600 text-white font-semibold text-center mt-2 px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg">
+                Join Our Assembly
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg text-white">
+            <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Where Leaders Are Forged and Voices Are Heard</h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+                    Welcome to a kingdom of confidence. Step up, speak out, and lead the way. Join a supportive community within HCL dedicated to your personal and professional growth.
+                </p>
+                <a href="#meetings" class="bg-yellow-500 text-gray-900 font-bold px-8 py-4 rounded-lg hover:bg-yellow-400 transition duration-300 text-lg shadow-xl transform hover:scale-105">
+                    Visit a Meeting as Our Guest
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Legacy, Your Future</h2>
+                <div class="max-w-4xl mx-auto text-lg text-gray-600 space-y-4">
+                    <p>
+                        Inspired by the legendary Pandya dynasty, renowned for establishing the eloquent Tamil Sangams, the HCL Pandyas Toastmasters Club was chartered to create a modern-day assembly within HCL.
+                    </p>
+                    <p>
+                        Our mission is to provide a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, resulting in greater self-confidence and personal growth. Whether you fear public speaking or want to polish your presentation skills, your journey to mastery begins here.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Pillars of Growth -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                 <div class="grid md:grid-cols-3 gap-12 text-center">
+                    <div class="p-8 bg-white rounded-xl shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <div class="text-blue-600 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Master Public Speaking</h3>
+                        <p class="text-gray-600">Transform anxiety into confidence. Learn to craft and deliver impactful speeches that captivate any audience.</p>
+                    </div>
+                    <div class="p-8 bg-white rounded-xl shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <div class="text-blue-600 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Cultivate Leadership</h3>
+                        <p class="text-gray-600">Take on meeting roles, manage projects, and provide constructive feedback. Develop the essential skills to lead teams effectively.</p>
+                    </div>
+                    <div class="p-8 bg-white rounded-xl shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <div class="text-blue-600 mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Build Your Network</h3>
+                        <p class="text-gray-600">Connect with a diverse group of motivated colleagues from different projects and domains within HCL. Grow together in a fun, supportive atmosphere.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW: Theme/Word/Phrase of the Day Section -->
+        <section id="focus" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">This Week's Focus (Sep 17, 2025)</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-2xl mx-auto">Every meeting has a unique theme, a new word, and a phrase to expand our vocabulary.</p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                    <!-- Theme of the Day -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-purple-500 flex flex-col items-center text-center transform hover:-translate-y-2 transition duration-300">
+                        <div class="text-purple-600 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Theme of the Day</h3>
+                        <p class="text-3xl font-bold text-purple-700 mb-4 tracking-wide">"The Art of Storytelling"</p>
+                        <p class="text-gray-600">This week, we explore how weaving narratives into our speeches can make them more memorable, persuasive, and engaging for any audience.</p>
+                    </div>
+                    <!-- Word of the Day -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-green-500 flex flex-col items-center text-center transform hover:-translate-y-2 transition duration-300">
+                        <div class="text-green-600 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Word of the Day</h3>
+                        <p class="text-3xl font-bold text-green-700 mb-2 tracking-wide">Anecdote</p>
+                        <p class="text-gray-500 font-medium mb-3">[an-ik-doht]</p>
+                        <p class="text-gray-600 italic mb-4">A short, amusing or interesting story about a real incident or person.</p>
+                        <p class="text-gray-700 bg-green-100 px-4 py-2 rounded-lg"><span class="font-semibold">Usage:</span> "He opened his speech with a humorous <span class="font-bold">anecdote</span> about his first day at work."</p>
+                    </div>
+                    <!-- Phrase of the Day -->
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-lg border-t-4 border-blue-500 flex flex-col items-center text-center transform hover:-translate-y-2 transition duration-300">
+                        <div class="text-blue-600 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Phrase of the Day</h3>
+                        <p class="text-3xl font-bold text-blue-700 mb-2 tracking-wide">Break the ice</p>
+                        <p class="text-gray-600 italic mb-4">To initiate conversation in a social setting and make people feel more comfortable.</p>
+                        <p class="text-gray-700 bg-blue-100 px-4 py-2 rounded-lg"><span class="font-semibold">Usage:</span> "A fun fact from each person is a great way to <span class="font-bold">break the ice</span>."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">The Pandya Advantage</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-2xl mx-auto">Joining HCL Pandyas is more than just attending meetings; it's an investment in yourself.</p>
+                </div>
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Communication Mastery -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-blue-500">
+                        <h3 class="text-2xl font-bold mb-4">Communication Mastery</h3>
+                        <ul class="space-y-3 text-gray-700 list-disc list-inside">
+                            <li>Conquer fear of public speaking in a friendly setting.</li>
+                            <li>Craft compelling speeches with structure and style.</li>
+                            <li>Excel at impromptu speaking with Table Topics®.</li>
+                            <li>Become a better, more active listener.</li>
+                        </ul>
+                    </div>
+                    <!-- Leadership Development -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-green-500">
+                        <h3 class="text-2xl font-bold mb-4">Leadership Development</h3>
+                        <ul class="space-y-3 text-gray-700 list-disc list-inside">
+                            <li>Lead and manage teams by taking up meeting roles.</li>
+                            <li>Practice effective time management and organization.</li>
+                            <li>Learn to give motivational and constructive feedback.</li>
+                            <li>Master the art of facilitating productive meetings.</li>
+                        </ul>
+                    </div>
+                    <!-- Career & Personal Growth -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border-l-4 border-purple-500">
+                        <h3 class="text-2xl font-bold mb-4">Career & Personal Growth</h3>
+                        <ul class="space-y-3 text-gray-700 list-disc list-inside">
+                            <li>Boost your self-confidence in all areas of life.</li>
+                            <li>Expand your professional network within HCL.</li>
+                            <li>Ace job interviews and client presentations.</li>
+                            <li>Follow a personalized learning journey with Pathways.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How Meetings Work Section -->
+        <section id="meetings" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">A Glimpse Into Our Assembly</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-2xl mx-auto">A Toastmasters meeting is not a lecture; it's a dynamic, hands-on workshop.</p>
+                </div>
+                <div class="max-w-4xl mx-auto bg-gray-50 p-10 rounded-xl shadow-lg">
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-700">1. Prepared Speeches</h3>
+                            <p class="text-gray-600 mt-1">Members deliver 5-7 minute speeches based on projects from their Pathways learning path, practicing skills like storytelling, research, or persuasive speaking.</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-700">2. Table Topics® (Impromptu Speaking)</h3>
+                            <p class="text-gray-600 mt-1">Members and willing guests are invited to give a 1-2 minute impromptu speech on a given topic. It’s fun, challenging, and builds quick-thinking skills.</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-700">3. Evaluations (The Gift of Feedback)</h3>
+                            <p class="text-gray-600 mt-1">This is where the magic happens. Every speaker receives immediate, constructive feedback from an assigned evaluator, focusing on strengths and suggestions for improvement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meeting Flow Section -->
+        <section id="flow" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Our Meeting Flow & Roles Explained</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-2xl mx-auto">Each meeting is a structured journey of learning and practice, where every role matters.</p>
+                </div>
+                <div class="max-w-3xl mx-auto">
+                    <div class="space-y-8">
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-blue-500">
+                            <p class="text-sm font-semibold text-blue-600">10:30 AM</p>
+                            <h3 class="text-xl font-bold mt-1">SAA Begins the Meeting</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> The Sergeant at Arms sets a professional tone, ensuring an on-time start. <br><span class="font-semibold">Skills Learned:</span> Punctuality, event management, creating a positive atmosphere.</p>
+                        </div>
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-blue-500">
+                            <p class="text-sm font-semibold text-blue-600">10:33 AM</p>
+                            <h3 class="text-xl font-bold mt-1">Presidential Address</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> The President welcomes all, shares club news, and inspires the audience. <br><span class="font-semibold">Skills Learned:</span> Formal address, leadership communication, motivation.</p>
+                        </div>
+                         <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-blue-500">
+                            <p class="text-sm font-semibold text-blue-600">10:34 AM</p>
+                            <h3 class="text-xl font-bold mt-1">Secretary Reads MoM</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> Reading the Minutes of the previous Meeting ensures accurate record-keeping. <br><span class="font-semibold">Skills Learned:</span> Active listening, concise writing, formal reporting.</p>
+                        </div>
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-green-500">
+                            <p class="text-sm font-semibold text-green-600">10:36 AM</p>
+                            <h3 class="text-xl font-bold mt-1">TMOD Takes Control</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> The Toastmaster of the Day (TMOD) is the host, guiding the entire meeting. <br><span class="font-semibold">Skills Learned:</span> Meeting facilitation, time management, improvisation.</p>
+                        </div>
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-green-500">
+                            <p class="text-sm font-semibold text-green-600">10:40 AM</p>
+                            <h3 class="text-xl font-bold mt-1">GE & TAG Team Introduction</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> The General Evaluator, Timer, Ah-Counter, & Grammarian explain their feedback roles. <br><span class="font-semibold">Skills Learned:</span> Critical observation, active listening, time and language analysis.</p>
+                        </div>
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-purple-500">
+                            <p class="text-sm font-semibold text-purple-600">10:45 AM</p>
+                            <h3 class="text-xl font-bold mt-1">Prepared Speeches</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> Members deliver speeches from their educational paths to practice specific skills. <br><span class="font-semibold">Skills Learned:</span> Speech writing, confidence, persuasion, storytelling.</p>
+                        </div>
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-purple-500">
+                            <p class="text-sm font-semibold text-purple-600">11:05 AM</p>
+                            <h3 class="text-xl font-bold mt-1">Table Topics Session</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> An exciting impromptu speaking session to practice thinking on your feet. <br><span class="font-semibold">Skills Learned:</span> Structuring thoughts quickly, spontaneous speaking.</p>
+                        </div>
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-yellow-500">
+                            <p class="text-sm font-semibold text-yellow-600">11:35 AM</p>
+                            <h3 class="text-xl font-bold mt-1">General Evaluation</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> The core feedback part of the meeting for all speakers and role-players. <br><span class="font-semibold">Skills Learned:</span> Constructive feedback, critical analysis, motivational speaking.</p>
+                        </div>
+                         <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-yellow-500">
+                            <p class="text-sm font-semibold text-yellow-600">11:43 AM</p>
+                            <h3 class="text-xl font-bold mt-1">TAG Team Reports</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> The Timer, Ah-Counter, and Grammarian present their objective findings. <br><span class="font-semibold">Skills Learned:</span> Data presentation, concise reporting.</p>
+                        </div>
+                        <!-- Timeline Item -->
+                        <div class="p-6 bg-white rounded-lg shadow-md border-l-4 border-red-500">
+                            <p class="text-sm font-semibold text-red-600">11:58 AM</p>
+                            <h3 class="text-xl font-bold mt-1">Wrap-up & Closing</h3>
+                            <p class="mt-2 text-gray-700"><span class="font-semibold">Significance:</span> The TMOD summarizes and the President gives closing remarks and awards. <br><span class="font-semibold">Skills Learned:</span> Summarization, meeting closure, recognizing achievements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Meet the Royal Council</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-2xl mx-auto">Our club is led by a council of dedicated volunteers committed to your success.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                    <!-- Sample Officer Card -->
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="Club President" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Arun Jothi J</h3>
+                        <p class="text-gray-500">President</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="VP Education" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Dineshkumar S</h3>
+                        <p class="text-gray-500">VP Education</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="VP Membership" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Vishnu P</h3>
+                        <p class="text-gray-500">VP Membership</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="VP Public Relations" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Abiro Aspal</h3>
+                        <p class="text-gray-500">VP Public Relations</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="Secretary" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Nivetha S</h3>
+                        <p class="text-gray-500">Secretary</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="Treasurer" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Prithika J</h3>
+                        <p class="text-gray-500">Treasurer</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="Sergeant at Arms" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Ragavini</h3>
+                        <p class="text-gray-500">Sergeant at Arms</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="https://placehold.co/400x400/E2E8F0/4A5568?text=Officer" alt="Sergeant at Arms" class="w-32 h-32 mx-auto rounded-full shadow-lg mb-4 object-cover">
+                        <h3 class="text-xl font-bold">Avinash Kashyap</h3>
+                        <p class="text-gray-500">immediate Past President</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Voices from Our Kingdom</h2>
+                </div>
+                <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <p class="text-gray-600 italic mb-4">"I was terrified of speaking in front of my team. After just six months at HCL Pandyas, I confidently delivered a presentation to senior leadership. This club is a game-changer!"</p>
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/100x100/E2E8F0/4A5568?text=Member" alt="Member" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <p class="font-bold">Deepak Kumar</p>
+                                <p class="text-sm text-gray-500">Senior Software Engineer, HCL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <p class="text-gray-600 italic mb-4">"Toastmasters isn't just about speaking; it's about leading. Taking on the role of VP Education taught me more about management and planning than any training course."</p>
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/100x100/E2E8F0/4A5568?text=Member" alt="Member" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <p class="font-bold">Lakshmi Menon</p>
+                                <p class="text-sm text-gray-500">Project Manager, HCL</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <p class="text-gray-600 italic mb-4">"The community is the best part. It's a place where everyone wants you to succeed. The feedback is always positive and aimed at helping you grow. I've made great friends here."</p>
+                        <div class="flex items-center">
+                            <img src="https://placehold.co/100x100/E2E8F0/4A5568?text=Member" alt="Member" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <p class="font-bold">Nisha Agarwal</p>
+                                <p class="text-sm text-gray-500">Business Analyst, HCL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Us Section -->
+        <section id="join" class="py-20 bg-blue-700 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Claim Your Throne of Eloquence?</h2>
+                <p class="text-lg text-blue-200 mb-8 max-w-2xl mx-auto">Your journey towards becoming a confident speaker and an inspiring leader starts now. The best way to understand the benefits is to experience a meeting for yourself.</p>
+                <div class="max-w-md mx-auto bg-white text-gray-800 rounded-xl shadow-2xl p-8">
+                    <h3 class="text-2xl font-bold mb-4">Visit Us!</h3>
+                    <p class="text-lg mb-1"><span class="font-semibold">When:</span> Every Wednesday</p>
+                    <p class="text-lg mb-4"><span class="font-semibold">Time:</span> 10:30 AM - 12:00 PM IST</p>
+                    <p class="text-lg mb-6"><span class="font-semibold">Venue:</span> Nayakkar Mandapam / MS Teams</p>
+                    <a href="mailto:vpm.hclpandyas@example.com" class="w-full block bg-green-500 text-white font-bold px-6 py-3 rounded-lg hover:bg-green-600 transition duration-300 text-lg shadow-lg">
+                        Contact Us to Join
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold mb-3">Follow Our Journey</h3>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="LinkedIn">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Instagram">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919 4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="WhatsApp">
+                        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                           <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95l-1.46 5.35 5.48-1.44c1.45.83 3.08 1.26 4.79 1.26h.01c5.46 0 9.91-4.45 9.91-9.91s-4.45-9.91-9.92-9.91zm0 18.17c-1.53 0-3.03-.38-4.36-1.12l-.31-.18-3.24.85.87-3.17-.2-.33c-.8-1.38-1.22-2.93-1.22-4.51 0-4.54 3.69-8.23 8.24-8.23 4.54 0 8.23 3.69 8.23 8.23 0 4.54-3.69 8.23-8.23 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.7-.82s-.39-.12-.56.12c-.17.25-.64.82-.79.98s-.29.17-.54.06c-.25-.12-1.06-.39-2.02-1.25s-1.45-1.95-1.61-2.29c-.17-.35-.02-.53.11-.68.12-.13.25-.32.37-.48.12-.17.17-.29.25-.49.08-.21 0-.39-.06-.51s-.56-1.35-.76-1.84c-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.44.06-.68.29s-.91.89-1.1 2.16c-.17 1.26.29 2.49.34 2.66.05.17.69 1.79 3.35 3.31 2.66 1.52 2.66 1.01 3.14.95.48-.06 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18s-.25-.18-.5-.3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Microsoft Teams">
+                       <svg class="w-7 h-7" role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.4 3.1A1.2 1.2 0 0 1 11.55 3a10.8 10.8 0 0 1 8.35 4.1 1.2 1.2 0 0 1-.55 1.6l-2.6 1.5c-.5.3-1.15.1-1.45-.4l-1.1-1.9a1.2 1.2 0 0 0-2.1 0l-1.1 1.9c-.3.5-.95.7-1.45.4l-2.6-1.5a1.2 1.2 0 0 1-.5-1.6A10.8 10.8 0 0 1 10.4 3.1zM3.6 9.4a1.2 1.2 0 0 1 .5 1.6l2.6 4.5c.3.5.95.7 1.45.4l2.15-1.25c.5-.3.8-.85.65-1.45l-.6-2.2a1.2 1.2 0 0 0-1.2-1L8 10.2c-.6 0-1.15.4-1.35.95L5.2 15.3c-.1.55.1 1.15.6 1.45l2.15 1.25c.5.3 1.15.1 1.45-.4l.05-.1v-3.4a1.2 1.2 0 0 1 2.4 0v3.4l.05.1c.3.5.95.7 1.45.4l2.15-1.25c.5-.3.7-1 .55-1.5l-1.4-4.15a1.2 1.2 0 0 1 1-1.6l2.15-1.25c.5-.3 1.15-.1 1.45.4l1.3 2.25c.3.5.1 1.15-.4 1.45l-2.6 1.5a1.2 1.2 0 0 0-.65 1.4l1.3 4.85a1.2 1.2 0 0 1-1 1.6A10.8 10.8 0 0 1 3 13.05a1.2 1.2 0 0 1 .6-3.65z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p class="mt-6">&copy; 2025 HCL Pandyas Toastmasters Club. All Rights Reserved.</p>
+            <p class="text-sm text-gray-400 mt-2">A proud club of Toastmasters International.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let i = 0; i < mobileMenuLinks.length; i++) {
+            mobileMenuLinks[i].addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+</body>
+
+</html>
